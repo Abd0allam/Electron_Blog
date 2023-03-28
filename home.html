@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electron | Home</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<nav id="base">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div id="wrapper1">
+			<button id="left-btn" onclick="back()">&#8249;</button>
+			<img id="img" src="1.png" width="500px" height="430px" alt=""> 
+			<button id="right-btn" onclick="forward()">&#8250;</button>
+		</div>
+
+
+		<section class="products-info">
+			<h2>Our Products</h2>
+			<div class="product-categories">
+				<button id="b1" class="category-btn" data-category="laptops">Laptops</button>
+				<button id="b2" class="category-btn" data-category="mobiles">Mobiles</button>
+				<button id="b3" class="category-btn" data-category="screens">Screens</button>
+			</div>
+			<div class="container" id="items-container">
+				
+			</div>
+		</section>
+
+		<section class="cart-section">
+			<h2>Your Cart</h2>
+			<div class="cart-details">
+				<p class="cart-contin1">You have <span id="cart-contin">0</span> items in your cart</p>
+                <div id="cart-count"></div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div class="footer-content">
+			<p>Contact us at: <a href="mailto:info@electron.com">info@electron.com</a></p>
+			<div class="social-icons">
+                <a href="#"><i class="fab fa-facebook">Facebook</i></a>
+                <a href="#"><i class="fab fa-twitter">Twitter</i></a>
+                <a href="#"><i class="fab fa-instagram"></i>Instgram</a>
+			</div>
+		</div>
+	</footer>
+    <a id="back-to-top" href="#base">Back to top</a>
+
+	<script src="app.js"></script>
+</body>
+</html>

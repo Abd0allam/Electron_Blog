@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Electron | Contact us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form id="registration-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country">
+
+        <div class="btns">
+            <button type="submit" id="submit-button">Submit</button>
+            <button type="reset" id="reset-button">Reset</button>
+        </div>
+
+      </form>
+      <div id="validation-message"></div>
+    </div>
+    <footer>
+      <div id="social-icons">
+        <p>Contact us at: <a href="mailto:info@gmail.com">info@gmail.com</a></p>
+        <a href="#"><i class="fab fa-facebook">Facebook</i></a>
+        <a href="#"><i class="fab fa-twitter">Twitter</i></a>
+        <a href="#"><i class="fab fa-instagram"></i>Instgram</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
